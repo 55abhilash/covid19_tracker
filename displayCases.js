@@ -30,9 +30,15 @@ $.get("https://corona.lmao.ninja/countries", function (resp) {
 		var circle = L.circleMarker([lat, lng], {
     				color: 'red',
     				fillColor: '#f03',
-    				fillOpacity: 0.5,
+    				fillOpacity: 0.9,
     				radius: rad
-			     }).addTo(myMap).bindPopup("Total Cases: " + coronaData[i]["cases"] + ", Total Deaths: " + coronaData[i]["deaths"]);
+			     }).addTo(myMap).bindPopup("<b>" + coronaData[i]["country"] + "</b>" +
+				     		  "<br> Total Cases: " + coronaData[i]["cases"] +  
+				     		  "<br> Total Deaths: " + coronaData[i]["deaths"] +
+				     		  "<br> Cases Today: " + coronaData[i]["todayCases"] + 
+				     		  "<br> Deaths Today: " + coronaData[i]["todayDeaths"] + 
+				     		  "<br> Total Recovered: " + coronaData[i]["recovered"] + 
+				     		  "<br> Critical Cases: " + coronaData[i]["critical"]);
 		
 	}
 }, "json");
