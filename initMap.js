@@ -1,5 +1,5 @@
 
-var myMap = L.map('mapid').setView([24, 16], 2);
+var myMap = L.map('mapid').setView([24, 16], 3);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiNTVhYmhpbGFzaCIsImEiOiJjazg0a2t2bW8xMnE0M25vd3FwNXQzZ3BwIn0.3dbqJ8xSkjN9lrstWlPM5g', 
 {
@@ -10,3 +10,4 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 	zoomOffset: -1,
 	accessToken: 'pk.eyJ1IjoiNTVhYmhpbGFzaCIsImEiOiJjazg0a2t2bW8xMnE0M25vd3FwNXQzZ3BwIn0.3dbqJ8xSkjN9lrstWlPM5g'
 }).addTo(myMap);
+
