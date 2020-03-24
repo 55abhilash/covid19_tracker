@@ -21,7 +21,7 @@ $.get("https://corona.lmao.ninja/countries", function (resp) {
 			rad = 5;
 		}
 		else {
-			rad = 5 + (rad / Math.pow(10, exp));
+			rad = 5 + (rad / Math.pow(10, exp)) + (10 * (exp - 1));
 			if(rad > 50) {
 				/*Significant difference must be seen. But radius > 50 is too big.*/
 				rad = 50;
