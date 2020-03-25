@@ -15,6 +15,6 @@ Any suggestions, feedback is welcome.
 ### TODO
 
 * Add a 'loading' GIF till the circles are displayed, because sometimes the API becomes slow and takes around 1min to fetch all countries' data.
-* The API returns incorrect data for some countries like USA, UK. Notified the developers.
+* The API returns incorrect data for some countries like USA, UK. Notified the developers: https://github.com/NovelCOVID/API/pull/117.
 * A certain API endpoint includes data province wise (state/region). It can be included on the map.
 * API is available for historical data which is updated everyday to include data till the day before. This can be included with user inputting the date.
