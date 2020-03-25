@@ -10,7 +10,6 @@
 		crossorigin="" />
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-
 	<!-- Make sure you put this AFTER Leaflet's CSS -->
 	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
 		integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
@@ -31,6 +30,10 @@
 </head>
 
 <body>
+	
+	<div id="loading" style="display: none; z-index: 9999; position: fixed; margin-left: 50%; margin-right: 50%; top: 50%;">
+		<img src="./img/ajax-loader.gif" width="32px" height="32px"/>
+	</div>
 
 	<section>
 		<nav class="navbar navbar-fixed navbar-expand-lg navbar-dark bg-dark">
