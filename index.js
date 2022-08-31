@@ -5,7 +5,7 @@ const router = express.Router();
 const path = require('path');
 
 const hostname = '127.0.0.1';
-const port = 3000;
+const port = 80;
 
 router.get('/', function(req, res) {
     res.sendFile(path.join(__dirname+'/index.html'));
