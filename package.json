@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/55abhilash/covid19_tracker/issues"
   },
-  "homepage": "https://github.com/55abhilash/covid19_tracker#readme"
+  "homepage": "https://github.com/55abhilash/covid19_tracker#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }

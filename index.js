@@ -3,7 +3,6 @@ const express = require('express');
 const app = express();
 const router = express.Router();
 const path = require('path');
-const THREE = require('./js/three.js');
 
 const hostname = '127.0.0.1';
 const port = 3000;
